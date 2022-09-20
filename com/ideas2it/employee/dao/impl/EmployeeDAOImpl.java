@@ -34,8 +34,6 @@ import com.ideas2it.employee.util.ConnectionUtil;
  * @author RithiKanth
  * @since 23/01/2022
  */
-
-
 public class EmployeeDAOImpl implements EmployeeDAO {
 
     private static final String getTrainerHql = "FROM Trainer WHERE employee_id = :id" +
@@ -53,8 +51,6 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     private static final String showTrainersHql = "FROM Trainer";
 
     private static final String showTraineesHql = "FROM Trainee WHERE trainer_table_id = NULL ";
-
-    
     
     /**
      * <p>
