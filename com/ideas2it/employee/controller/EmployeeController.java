@@ -64,7 +64,7 @@ public class EmployeeController {
      */
     public static void main(String[] args) {
         EmployeeController employeeController = new EmployeeController();
-        employeeController.init();
+        employeeController.mainMenu();
     }
 
     /**
@@ -75,7 +75,7 @@ public class EmployeeController {
      *
      * @return void
      */
-    public void init() {
+    public void mainMenu() {
           boolean flag = true;
           boolean status;
           int choice;
@@ -155,7 +155,7 @@ public class EmployeeController {
               catch(InputMismatchException e) {
                   logger.info("Please Enter the valid input");
                   input.nextLine();
-                  init();
+                  mainMenu();
               }       
         } while (flag);   
     }

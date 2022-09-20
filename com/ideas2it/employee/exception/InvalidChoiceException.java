@@ -8,7 +8,7 @@ import java.lang.Exception;
 
 /**
  * <p>
- * This class handles the custom exceptions
+ * This class handles the custom exceptions whether the choice is valid or not
  * </p>
  * @author Rithikanth
  * @since 23/01/2022

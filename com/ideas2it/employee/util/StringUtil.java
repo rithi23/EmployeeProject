@@ -16,7 +16,6 @@ import java.util.Scanner;
  * @author Rithi
  * @since 23/01/2001
  */ 
-
 public class StringUtil {
 
     /**

@@ -178,8 +178,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         }
         return status > 0;
     }
-    
-    
+        
     /**
      * @inheritDocs
      */
@@ -274,8 +273,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         }
         return trainers;
     }    
-   
-       
+          
     /**
      * @inheritDocs
      */
